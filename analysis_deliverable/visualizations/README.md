@@ -1,6 +1,6 @@
 # Visualization Report
 
-**Percentage of Denial by Race and Sex:**
+**Percentage of Denial by Race and Sex:** (heatmap.png)
 
 For our first visualization, we depicted the percentage of denial by race and sex. We decided to depict this based on denial and not acceptance to evoke a stronger reaction to the heatmap. We included the applicant’s race on the y axis (American Indian or Native Alaskan, Asian, Black or African American, Native Hawaiian or Pacific Islander) and applicant’s sex on the x axis (female, male). Each sub-square was colored according to the percentage legend on the right side, with lower percentages in a lighter blue and higher in darker blue. We could have depicted this as a slightly confusing or messy pie chart or bar graph (or two separate ones), but we chose a heatmap, since it efficiently and effectively relayed the disparities not only by race and by gender but by each race and gender pairing. For example, we can readily see American Indian females had a higher rate of denial in comparison to American Indian males (37 percent vs 30 percent). Additionally, the colors make it easy to visualize the differences, making the data relationship evident before anyone even looks at the actual percentages. The title, labeled axis, and color legend to the right make the heatmap easy to understand and devoid of any further requirements of explanation or context along with it. 
 
