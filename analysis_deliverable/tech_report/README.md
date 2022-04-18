@@ -12,7 +12,7 @@ For hypothesis testing, we had to clean/restructure our data: we removed missing
 *Side note: we used alpha = 0.05 as our threshold for identifying statistically significant outcomes
 Our hypothesis tests primarily concern 3 variables of interest: sex, race, and income. We believed going into the project that these would be interesting variables to look at given the potential for bias in this type of dataset. We wanted to see whether differences in mortgage denials were dependent on sensitive variables or the more traditional ones you would expect such as income. 
 
-**Alternative Hypothesis #1: Minorities have a different likelihood of having their loan denied than whites. **
+**Alternative Hypothesis #1: Minorities have a different likelihood of having their loan denied than whites.**
 
 Test: 2 sample independent proportions z test.
 
@@ -24,7 +24,7 @@ Conclusion: Because of the p-value, we accept our hypothesis, meaning the statis
 
 Intuitions: Intuitively, it makes sense that minorities have a higher chance of having their loan denied. Due to inherent prejudices and racism built into the system, many factors like income differences, discrimination, etc could have led to this disparity.
 
-**Alternative Hypothesis #2: Minorities have lower income levels than whites. **
+**Alternative Hypothesis #2: Minorities have lower income levels than whites.**
 
 Test: One-sided two sample t-test.
 
