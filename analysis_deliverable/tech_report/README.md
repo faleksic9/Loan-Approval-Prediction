@@ -78,6 +78,7 @@ Statistical Results: Since the p-value was approximately 0.18, our findings are 
 **Intuitions**: It makes sense that the higher the income, the lower the denial and the lower the income, the higher the denial. After our intuitions of the above two tests, it makes sense that the relationship between income levels and loan denials is slight.
 
 
+
 False discovery rate is very low due to all tests having significance below alpha/5  = 0.01. Because of this, we are confident in not identifying significant results from.
 
 Overall, the results mainly correspond to our initial beliefs of the data. The only assumption that did not hold true was women getting denied at a higher rate than men (men were denied slightly more in fact).
