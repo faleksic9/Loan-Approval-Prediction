@@ -14,23 +14,23 @@ Our hypothesis tests primarily concern 3 variables of interest: sex, race, and i
 
 **Alternative Hypothesis #1: Minorities have a different likelihood of having their loan denied than whites.**
 
-Test: 2 sample independent proportions z test.
+**Test**: 2 sample independent proportions z test.
 
-Why Test: We used this test to determine if there is a significant difference between loan denial rate between minorities and whites. Since rates are proportions, we needed to use the z test to come to a conclusion.
+**Why Test**: We used this test to determine if there is a significant difference between loan denial rate between minorities and whites. Since rates are proportions, we needed to use the z test to come to a conclusion.
 
-Statistical Results: The p-value was approximately 0, so our findings are significant. The rate of denials for minorities was approximately 0.26% while the rate of denials for whites was approximately 0.17%. 
+**Statistical Results**: The p-value was approximately 0, so our findings are significant. The rate of denials for minorities was approximately 0.26% while the rate of denials for whites was approximately 0.17%. 
 
-Conclusion: Because of the p-value, we accept our hypothesis, meaning the statistical results support our assumption. From our test, we can conclude there is a significant difference in loan denial between white people and minorities.
+**Conclusion**: Because of the p-value, we accept our hypothesis, meaning the statistical results support our assumption. From our test, we can conclude there is a significant difference in loan denial between white people and minorities.
 
-Intuitions: Intuitively, it makes sense that minorities have a higher chance of having their loan denied. Due to inherent prejudices and racism built into the system, many factors like income differences, discrimination, etc could have led to this disparity.
+**Intuitions**: Intuitively, it makes sense that minorities have a higher chance of having their loan denied. Due to inherent prejudices and racism built into the system, many factors like income differences, discrimination, etc could have led to this disparity.
 
 **Alternative Hypothesis #2: Minorities have lower income levels than whites.**
 
-Test: One-sided two sample t-test.
+**Test**: One-sided two sample t-test.
 
-Why Test: We used this test to examine whether there is a significant difference in mean of two samples (minorities and whites incomes), which are independent. 
+**Why Test**: We used this test to examine whether there is a significant difference in mean of two samples (minorities and whites incomes), which are independent. 
 
-Statistical Results: Since the p-value was approximately 0, our findings are significant.
+**Statistical Results**: Since the p-value was approximately 0, our findings are significant.
 This was the income level breakdown of averages across racial groups: 
 American Indian or Alaska Native: $62,000 
 Black or African American: $58,000
@@ -38,42 +38,44 @@ Native Hawaiian or Other Pacific Islander: $60,000
 Asian: $82,000
 White: $83,000
 
-Conclusion: The statistical results support our hypothesis, since it shows that there is a clear difference in income levels between white people and minorities.
+**Conclusion**: The statistical results support our hypothesis, since it shows that there is a clear difference in income levels between white people and minorities.
 
-Intuitions: Intuitively, the severe gaps in mean of minority vs white incomes make sense. We can reason that there are many reasons for this disparity, most of them being entrenched discrimination and unequal opportunities.
+**Intuitions**: Intuitively, the severe gaps in mean of minority vs white incomes make sense. We can reason that there are many reasons for this disparity, most of them being entrenched discrimination and unequal opportunities.
 
 **Alternative Hypothesis #3: Females have a different likelihood of having their loan denied than males.**
 
-Test: 2 sample independent proportions z test.
+**Test**: 2 sample independent proportions z test.
 
-Why Test: We used this test to determine if there is a significant difference in loan denial rates between men and women. Since rates are proportions, and the form indicated gender as independent proportions, we needed to use the independent proportion z test.
+**Why Test**: We used this test to determine if there is a significant difference in loan denial rates between men and women. Since rates are proportions, and the form indicated gender as independent proportions, we needed to use the independent proportion z test.
 Statistical Results: Since the p-value was approximately 0.18, our findings are not significant. Our results showed the rate of denial for women is approximately 18.1%, while the rate of denial for men is approximately 18.4%. 
 
-Conclusion: Since the statistical results showed there is not a statistically significant difference in denial rates between men and women, our hypothesis is not supported.
-Intuitions: Intuitively we were surprised to see the rate of denial being higher for men than women, since women on average have lower incomes (shown in the test below), etc in comparison. However, since the rates of denial are pretty similar, we can see how these findings make some sort of sense.
+**Conclusion**: Since the statistical results showed there is not a statistically significant difference in denial rates between men and women, our hypothesis is not supported.
+
+**Intuitions**: Intuitively we were surprised to see the rate of denial being higher for men than women, since women on average have lower incomes (shown in the test below), etc in comparison. However, since the rates of denial are pretty similar, we can see how these findings make some sort of sense.
 
 **Alternative Hypothesis #4: On average, females have lower income levels than males.** 
 
-Test: One-sided two sample t-test. 
+**Test**: One-sided two sample t-test. 
 
-Why Test: We used this test because we were interested in whether there is a difference in mean of two samples (female and male income).
-Statistical Results: Since the p-value was close to 0, our findings are significant. The average income for women was approximately $67,000, while the average income for men was approximately $91,000.
+**Why Test**: We used this test because we were interested in whether there is a difference in mean of two samples (female and male income).
 
-Conclusion: Since the statistical results showed there is a difference in income levels between females and males, our hypothesis is supported.
+**Statistical Results**: Since the p-value was close to 0, our findings are significant. The average income for women was approximately $67,000, while the average income for men was approximately $91,000.
 
-Intuitions: Intuitively, we can see why our results showed women to have a lower average income than men. Outside this dataset, we know women earn less than men, still averaging only 80% of their income (though varying on occupation). However, it is shocking to see the gap being so high (24,000). Additionally, with the above test, we concluded that men and women have similar rates of approval, which seems to be inconsistent with the findings of this test (or meaning that income holds less of a weight than other factors as shown in the below test).
+**Conclusion**: Since the statistical results showed there is a difference in income levels between females and males, our hypothesis is supported.
+
+**Intuitions**: Intuitively, we can see why our results showed women to have a lower average income than men. Outside this dataset, we know women earn less than men, still averaging only 80% of their income (though varying on occupation). However, it is shocking to see the gap being so high (24,000). Additionally, with the above test, we concluded that men and women have similar rates of approval, which seems to be inconsistent with the findings of this test (or meaning that income holds less of a weight than other factors as shown in the below test).
 
 **Hypothesis #5: Income levels influence the likelihood of having a loan approved or denied.**
 
-Test: Logistic Regression test. 
+**Test**: Logistic Regression test. 
 
-Why Test: We considered applying linear regression, but given that the dependent variable is not continuous, logistic regression analysis allows us to describe the relationship between an independent variable that is continuous and a dichotomous dependent variable. 
+**Why Test**: We considered applying linear regression, but given that the dependent variable is not continuous, logistic regression analysis allows us to describe the relationship between an independent variable that is continuous and a dichotomous dependent variable. 
 
-Statistical Results: The correlation coefficient between income levels and loan denial is -0.0012, so our findings are significant. 
+**Statistical Results**: The correlation coefficient between income levels and loan denial is -0.0012, so our findings are significant. 
 
-Conclusion: The statistical results support our hypothesis since it shows that there is a relationship between income levels and loan denial–slightly negative.
+**Conclusion**: The statistical results support our hypothesis since it shows that there is a relationship between income levels and loan denial–slightly negative.
 
-Intuitions: It makes sense that the higher the income, the lower the denial and the lower the income, the higher the denial. After our intuitions of the above two tests, it makes sense that the relationship between income levels and loan denials is slight.
+**Intuitions**: It makes sense that the higher the income, the lower the denial and the lower the income, the higher the denial. After our intuitions of the above two tests, it makes sense that the relationship between income levels and loan denials is slight.
 
 
 False discovery rate is very low due to all tests having significance below alpha/5  = 0.01. Because of this, we are confident in not identifying significant results from.
