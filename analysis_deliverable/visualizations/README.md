@@ -6,7 +6,7 @@ For our first visualization, we depicted the percentage of denial by race and se
 
 The inspiration behind this visualization is that in our hypothesis tests, we saw that denials were correlated with race and income but not with sex. Therefore, it was worth looking at the breakdown of denials over race and sex. Interestingly, we roughly see that for minorities, females are denied more than males, while the opposite is true for white individuals. Given that white individuals make up a large part of the data set, this could have led to a lack of a significant difference in denials between males and females.
 
-**Denial Rates by County in Rhode Island:**
+**Denial Rates by County in Rhode Island:** (chloropleth.png)
 
 For our other visualization, we depicted denial rates by county in the state of Rhode Island. It intuitively made sense to use a choropleth map since we were depicting different rates within a geographic region. Visually, the map was easy to interpret due to the distinct boundaries and colors of each county. It was interesting to see it depicted as a map to compare the differences and similarities of rates of distant vs close-by counties, especially since Rhode Island is such a small state and neighboring counties are pretty close by to each other. One would assume nearby counties would have similar rates, but that wasn’t always the case (even though the yellow and dark blue counties are right next to each other, they had the second greatest difference in loan rejections ).
 
