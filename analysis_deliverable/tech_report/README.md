@@ -95,7 +95,7 @@ The data was adequate for our analysis, with not many missing values for the var
 
 Some of the data values were tough to understand, and the data was not very well documented. Therefore, some variables were unusable to us because we could not figure out exactly what they meant or what it meant to not have that specific value filled in. Given that the dataset had so many features as well, we ran into a problem with choosing variables. Having domain knowledge may have helped us with this, but we tried our best to pick variables that we felt were relevant to the classification problem.
 
-##### Visualization With PCA
+##### Visualization With PCA (PCA.png)
 Looking at a visualization from PCA, it could be seen that the data was not obviously linearly separable, and in fact, around 80% of the data was made up of non-denials. The data fell into little clusters, some of which may have had more denials than others, but most clusters seemed to still have a majority of non-denials. Therefore, we had to pick a classifier which could classify non-separable data as well as classify a relatively rare event of loan  denial. Given that a dummy classifier which always predicted non-denial could have an accuracy of around 80 percent, we had to have a higher threshold for model accuracy as well. 
 
 We chose PCA because it effectively shows us the basic structure of the data and the labels of all of the data points. It can be tough to view data in 3 dimensions but the interactivity of matplotlib helped clarify how the data is structured. The PCA only takes into account the same variables used for our classification. 
@@ -105,7 +105,7 @@ We tried using classifiers like a Decision Trees, Support Vector Classifier, and
 
 Our measure of success was calculating the average cross validation accuracy, since there wasn’t a distinct indication of failure vs success. Below you can see a plot for average cross validation accuracy vs. k. The results of the graph make intuitive sense, with the testing accuracy being lower when K = 1, rapidly improving between 1 and 6, and stabilizing at around the accuracy of a dummy classifier as k increases. This is an example of the bias variance tradeoff, and if we were to choose an optimal k, it would have to balance these two aspects.  Given that our KNN model accuracy was only an improvement of .5-1% on the dummy model accuracy, it shows that KNN might be a good classifier for this data set, but more work might need to be done to choose the right variables and preprocess the data. 
 
-##### Visualization of KNN k vs. accuracy
+##### Visualization of KNN k vs. accuracy (k_curve.png)
 We chose this graph because it was easy and clear to interpret. We could have presented it in a bar graph or pie chart, but we found it more helpful to be able to see the accuracy with respect to the hyperparameter k. From the graph, we can see an increase in accuracy as k increases, but a leveling off around the same accuracy as the dummy classifier. Depending on the sample, certain k’s will achieve higher training accuracy than the dummy classifier, but this isn’t always consistent/might be due to overfitting. The graph is stand alone and doesn’t require text to explain apart from the title and the labels of the axis. It does, however, require context of the classifier we chose, the data, and the classification problem at hand. 
 
 
